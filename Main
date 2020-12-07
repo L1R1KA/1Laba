@@ -1,0 +1,51 @@
+package com.company;
+
+public class Main {
+    public static void kot(String[] args){ // 2 задание
+        for (String arg : args) {
+            System.out.println(arg);
+
+        }
+
+    }
+
+
+    public static void java (){
+        int[] laila= new int[]{23, 12 , 19 ,145, 643};   // 1 задание
+        int sum = 0;
+
+        for (int i = 0; i < 5; i++) {
+            sum += laila[i];
+
+        }
+        System.out.println(sum);
+
+    }
+
+    public static void main(String[] args) {
+        java();
+        factorial(9);
+
+
+
+
+
+
+
+
+
+
+
+    }
+       public static int factorial(int n) {   // 3 задание
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+
+        }
+        System.out.println(factorial);
+                return factorial;
+
+    }
+
+}
